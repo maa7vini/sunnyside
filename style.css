@@ -74,3 +74,198 @@ header h1 {
     font-family: serif;
     color: whitesmoke;
 }
+
+.div-egg {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div-egg-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+    width: 50%;
+    padding: 0px 20px;
+}
+
+.egg-txt h1 {
+    margin-top: -30px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 2.5em;
+    color: rgb(27, 27, 27);
+}
+
+.egg-txt p {
+    width: 500px;
+    margin-top: 20px;
+    line-height: 1.6em;
+    color: gray;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.13);
+}
+
+.egg-link {
+    margin-top: 25px;
+}
+
+.egg-link a {
+    color: rgb(17, 17, 17);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.egg-link a:hover {
+    text-decoration: underline;
+}
+
+.div-egg-right {
+    background-image: url(imagens/image-transform.jpg);
+    background-size: cover;
+    height: 70vh;
+    width: 50%;
+}
+
+.div-glass {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div-glass-left {
+    background-image: url(imagens/image-stand-out.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    width: 50%;
+}
+
+.div-glass-right {
+    height: 70vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 20px;
+}
+
+.glass-txt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+}
+
+.glass-txt h1 {
+    margin-left: -20px;
+    margin-top: -30px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 2.5em;
+    color: rgb(27, 27, 27);
+}
+
+.glass-txt p {
+    width: 550px;
+    margin-top: 20px;
+    line-height: 1.6em;
+    color: gray;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.205);
+}
+
+.glass-link {
+    margin-top: 25px;
+}
+
+.glass-link a {
+    margin-left: -275px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(17, 17, 17);
+}
+
+.glass-link a:hover {
+    text-decoration: underline;
+}
+
+.graphic-photography {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90vh;
+    width: 100%;
+}
+
+.graphic-design {
+    background-image: url(imagens/image-graphic-design.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 90vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.graphic-design-txt {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 250px;
+}
+
+.graphic-design-txt h1 {
+    font-weight: bold;
+    color: #509182;
+    text-shadow: 1px 1px 1px rgb(51, 49, 49);
+}
+
+.graphic-design-txt p {
+    width: 350px;
+    text-align: center;
+    margin-top: 10px;
+    color: #417e70;
+}
+
+.photography {
+    background-image: url(imagens/image-photography.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 90vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photography-txt {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 250px;
+}
+
+.photography-txt h1 {
+    font-weight: bold;
+    color: #28a1dd;
+    text-shadow: 1px 1px 1px rgb(51, 49, 49);
+}
+
+.photography-txt p {
+    width: 350px;
+    text-align: center;
+    margin-top: 10px;
+    color: #2c7194;
+}
