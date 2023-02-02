@@ -377,3 +377,56 @@ header h1 {
     justify-content: center;
     flex-direction: column;
 }
+
+.div-imgs {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-imgs img {
+    height: 70vh;
+    width: 25%;
+}
+
+.body-footer footer {
+    height: 300px;
+    width: 100%;
+    background-color: #91D3C6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.body-footer h1 {
+    font-size: 2em;
+    color: #174b40;
+    margin-top: -30px;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    margin: 0px 15px;
+    color: #277263;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.158);
+}
+
+.footer-links a:hover {
+    color: #4f8d81;
+}
+
+.footer-social-media {
+    margin-top: 30px;
+}
+
+.footer-social-media img {
+    margin: 0px 10px;
+}
+
